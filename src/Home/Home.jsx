@@ -1,5 +1,6 @@
 import Header from "../Header/Header";
 import Banner from "./Banner";
+import Choose from "./Choose";
 import Discover from "./Discover";
 
 function Home() {
@@ -8,6 +9,7 @@ function Home() {
       <Header />
       <Banner />
       <Discover />
+      <Choose />
     </div>
   );
 }

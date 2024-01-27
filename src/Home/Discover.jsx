@@ -219,12 +219,12 @@ function Discover() {
     },
   ];
   return (
-    <div className="container mx-auto flex flex-col gap-20 items-center py-20 ">
+    <div className="container mx-auto flex flex-col md:gap-20 gap-10  items-center py-20 ">
       <div className="flex flex-col text-center gap-3">
-        <h1 className="sm:text-h-x-f text-p-x-f text-hc font-bold">
+        <h1 className="md:text-h-x-f text-p-x-f text-hc font-bold">
           Discover Our Featured Listings
         </h1>
-        <p className="sm:text-p-x-f text-p-m-f text-pc">
+        <p className="md:text-p-x-f text-h-m-f text-pc">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit
         </p>
       </div>
