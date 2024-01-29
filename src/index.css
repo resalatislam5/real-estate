@@ -11,13 +11,24 @@ body {
   --swiper-theme-color: #ff6647;
 }
 
-/* @media (min-width: 1280px) {
-  .slider-width {
-    width: 18.5rem !important;
-  }
-} */
-/* @media (max-width: 1273px) {
-  .slider-width {
-    width: 17rem !important;
-  }
-} */
+.swiper-button-prev, .swiper-button-next {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid gainsboro;
+    font-weight: 700;
+}
+.swiper-button-prev, .swiper-button-next ::after{
+    --swiper-theme-color: #134563;
+    font-size: 200px;
+}
+.swiper-button-next, .swiper-button-prev ::after{
+    --swiper-theme-color: #134563;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    font-size: 30px;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  font-size: 30px;
+}

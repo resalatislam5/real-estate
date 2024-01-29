@@ -7,6 +7,8 @@ import bed from "../assets/bed.png";
 import bath from "../assets/bath-tub 1.png";
 import garage from "../assets/garage.svg";
 import sq from "../assets/set-square.svg";
+import Card from "../components/Card";
+import { SwiperSlide } from "swiper/react";
 function Discover() {
   const disData = [
     {
@@ -229,7 +231,18 @@ function Discover() {
         </p>
       </div>
       <div className="container">
-        <Slider dataObj={disData} />
+        <Slider
+          pagi ={{clickable: true}}
+        >
+          {disData.map((e, i) => (
+            <SwiperSlide
+              className="flex justify-center items-center"
+              key={i}
+            >
+              <Card cardData={e} />
+            </SwiperSlide>
+          ))}
+        </Slider>
       </div>
     </div>
   );

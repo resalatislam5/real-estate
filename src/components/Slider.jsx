@@ -1,16 +1,15 @@
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 // import required modules
-import { Pagination } from "swiper/modules";
-import Card from "./Card";
+import { Pagination, Navigation } from "swiper/modules";
 
-export default function Slider({ dataObj }) {
-  console.log("dataObj", dataObj);
+export default function Slider({ children, navi, pagi }) {
   return (
     <>
       <Swiper
@@ -28,22 +27,13 @@ export default function Slider({ dataObj }) {
             slidesPerView: 4,
           },
         }}
-        // slidesPerView={4}
         spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
+        pagination={pagi}
+        modules={[Pagination, Navigation]}
         className="mySwiper h-[500px]"
+        navigation={navi}
       >
-        {dataObj.map((e, i) => (
-          <SwiperSlide
-            className="slider-width flex justify-center items-center"
-            key={i}
-          >
-            <Card cardData={e} />
-          </SwiperSlide>
-        ))}
+        {children}
       </Swiper>
     </>
   );
