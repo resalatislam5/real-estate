@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import Choose from "./Choose";
 import Discover from "./Discover";
 import Properties from "./Properties";
+import Trends from "./Trends";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Discover />
       <Choose />
       <Properties />
+      <Trends />
     </div>
   );
 }

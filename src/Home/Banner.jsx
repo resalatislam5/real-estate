@@ -7,7 +7,7 @@ function Banner() {
       <div className="container flex flex-col gap-28 text-center items-center md:px-0 px-5 ">
         <div>
           <h1 className="sm:text-h-x-f text-p-x-f font-bold">
-            Buy, Sell and Rentins Properties <br className="lg::flex hidden" />
+            Buy, Sell and Rentins Properties <br className="lg:flex hidden" />
             in a Fastest Way
           </h1>
           <p className="sm:text-p-x-f text-p-m-f">
