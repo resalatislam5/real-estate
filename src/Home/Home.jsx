@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import Blog from "./Blog";
 import Choose from "./Choose";
 import Cities from "./Cities";
+import Cta from "./Cta";
 import Discover from "./Discover";
 import Properties from "./Properties";
 import Rent from "./Rent";
@@ -24,6 +25,7 @@ function Home() {
       <Cities />
       <Agents />
       <Blog />
+      <Cta />
     </div>
   );
 }
