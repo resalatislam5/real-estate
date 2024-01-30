@@ -122,7 +122,7 @@ function Rent() {
           heading={"Recent Properties for Rent"}
           para={"Lorem ipsum dolor sit amet, consectetur adipisicing elit"}
         >
-          <div className="flex lg:justify-between justify-center gap-5 flex-wrap px-5">
+          <div className="flex  justify-center gap-5 flex-wrap px-5">
             {disData.map((e, i) => (
               <div className="flex justify-center items-center" key={i}>
                 <Card cardData={e} />

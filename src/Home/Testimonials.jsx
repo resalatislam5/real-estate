@@ -37,7 +37,7 @@ function Testimonials() {
           para={"Lorem ipsum dolor sit amet, consectetur adipisicing elit"}
           style={"bg-testimonial  bg-no-repeat bg-cover"}
         >
-          <div className="flex lg:justify-between justify-center gap-5 flex-wrap px-5">
+          <div className="flex justify-center gap-5 flex-wrap px-5">
             {testimonialData.map((e, i) => (
               <div
                 className="flex flex-col justify-center items-center w-72 text-center"

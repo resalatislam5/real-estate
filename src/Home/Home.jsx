@@ -1,4 +1,5 @@
 import Header from "../Header/Header";
+import Agents from "./Agents";
 import Banner from "./Banner";
 import Choose from "./Choose";
 import Cities from "./Cities";
@@ -20,6 +21,7 @@ function Home() {
       <Rent />
       <Testimonials />
       <Cities />
+      <Agents />
     </div>
   );
 }
