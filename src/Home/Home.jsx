@@ -1,6 +1,7 @@
 import Header from "../Header/Header";
 import Banner from "./Banner";
 import Choose from "./Choose";
+import Cities from "./Cities";
 import Discover from "./Discover";
 import Properties from "./Properties";
 import Rent from "./Rent";
@@ -18,6 +19,7 @@ function Home() {
       <Trends />
       <Rent />
       <Testimonials />
+      <Cities />
     </div>
   );
 }
