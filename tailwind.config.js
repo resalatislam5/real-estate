@@ -19,6 +19,7 @@ export default {
       backgroundImage: {
         banner: "url('./src/assets/house-with-garage-house-left-side 1.png')",
         garden: "url('./src/assets/garden-1.png')",
+        testimonial: "url('./src/assets/Group 27.png')",
       },
     },
   },
