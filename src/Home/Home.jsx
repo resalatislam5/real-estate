@@ -1,6 +1,7 @@
 import Header from "../Header/Header";
 import Agents from "./Agents";
 import Banner from "./Banner";
+import Blog from "./Blog";
 import Choose from "./Choose";
 import Cities from "./Cities";
 import Discover from "./Discover";
@@ -22,6 +23,7 @@ function Home() {
       <Testimonials />
       <Cities />
       <Agents />
+      <Blog />
     </div>
   );
 }
