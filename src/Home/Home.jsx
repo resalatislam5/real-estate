@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Agents from "./Agents";
 import Banner from "./Banner";
@@ -26,6 +27,7 @@ function Home() {
       <Agents />
       <Blog />
       <Cta />
+      <Footer />
     </div>
   );
 }
