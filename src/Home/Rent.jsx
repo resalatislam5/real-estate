@@ -117,7 +117,7 @@ function Rent() {
       },
     ];
     return (
-      <div className="sm:mt-10">
+      <div id="rentals" className="sm:mt-10">
         <MainLayout
           heading={"Recent Properties for Rent"}
           para={"Lorem ipsum dolor sit amet, consectetur adipisicing elit"}

@@ -17,27 +17,27 @@ function Header() {
   // nav name
   const items = [
     {
-      to: "#",
+      to: "#home",
       text: "Home",
     },
     {
-      to: "#",
+      to: "#about",
       text: "About",
     },
     {
-      to: "#",
+      to: "#rentals",
       text: "Rentals",
     },
     {
-      to: "#",
+      to: "#testimonial",
       text: "Testimonial",
     },
     {
-      to: "#",
+      to: "#blog",
       text: "Blog",
     },
     {
-      to: "#",
+      to: "#contact",
       text: "Contact us",
     },
   ];

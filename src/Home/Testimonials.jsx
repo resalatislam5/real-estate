@@ -31,7 +31,7 @@ function Testimonials() {
       },
     ];
     return (
-      <div className="">
+      <div id="testimonial">
         <MainLayout
           heading={"Our Testimonials"}
           para={"Lorem ipsum dolor sit amet, consectetur adipisicing elit"}
@@ -44,18 +44,14 @@ function Testimonials() {
                 key={i}
               >
                 <div className="bg-white shadow-md px-5 py-10 rounded-md">
-                  <p className="text-p-s-f">
-                    {e.text}
-                  </p>
+                  <p className="text-p-s-f">{e.text}</p>
                 </div>
                 <div className="flex flex-col justify-center items-center -mt-8">
                   <div className="w-16 h-16">
                     <img className="w-full" src={e.img} alt="" />
                   </div>
                   <div>
-                    <h2 className="text-h-m-f text-hc font-bold">
-                      {e.name}
-                    </h2>
+                    <h2 className="text-h-m-f text-hc font-bold">{e.name}</h2>
                     <p className="text-h-m-f text-pc">{e.title}</p>
                   </div>
                 </div>

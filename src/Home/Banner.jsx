@@ -3,7 +3,10 @@ import Input from "../components/Input";
 
 function Banner() {
   return (
-    <div className="bg-banner h-screen bg-no-repeat bg-cover pt-28 bg-[#0B020080] bg-blend-multiply text-white flex justify-center items-center">
+    <div
+      id="about"
+      className="bg-banner h-screen bg-no-repeat bg-cover pt-28 bg-[#0B020080] bg-blend-multiply text-white flex justify-center items-center"
+    >
       <div className="container flex flex-col gap-28 text-center items-center md:px-0 px-5 ">
         <div>
           <h1 className="sm:text-h-x-f text-p-x-f font-bold">

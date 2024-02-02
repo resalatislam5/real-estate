@@ -34,7 +34,7 @@ function Blog() {
       },
     ];
     return (
-      <div>
+      <div id="blog">
         <MainLayout
           heading={"Our Blog"}
           para={"Lorem ipsum dolor sit amet, consectetur adipisicing elit"}
@@ -62,9 +62,7 @@ function Blog() {
                     </div>
                   </div>
                   <div className="flex flex-col gap-3 px-4 pb-4">
-                    <h2 className="text-p-m-f text-hc font-bold">
-                      {e.name}
-                    </h2>
+                    <h2 className="text-p-m-f text-hc font-bold">{e.name}</h2>
                     <p className="text-p-s-f">{e.title}</p>
                     <a className="text-p-s-f underline text-orange" href="#">
                       READ MORE

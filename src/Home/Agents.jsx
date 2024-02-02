@@ -27,7 +27,7 @@ function Agents() {
     },
   ];
   return (
-    <div>
+    <div id="contact">
       <MainLayout
         heading={"Meet Our Agents"}
         para={"Lorem ipsum dolor sit amet, consectetur adipisicing elit"}

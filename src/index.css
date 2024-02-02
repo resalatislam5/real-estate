@@ -6,6 +6,9 @@
 body {
   font-family: inter;
 }
+html{
+  scroll-behavior: smooth;
+}
 /* slider-button-color */
 .swiper-pagination-bullet-active {
   --swiper-theme-color: #ff6647;
