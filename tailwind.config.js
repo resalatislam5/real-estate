@@ -17,9 +17,9 @@ export default {
         "p-s-f": "12px",
       },
       backgroundImage: {
-        banner: "url('./src/assets/house-with-garage-house-left-side 1.png')",
-        garden: "url('./src/assets/garden-1.png')",
-        testimonial: "url('./src/assets/Group 27.png')",
+        banner: "url('/src/assets/house-with-garage-house-left-side 1.png')",
+        garden: "url('/src/assets/garden-1.png')",
+        testimonial: "url('/src/assets/Group 27.png')",
       },
     },
   },
